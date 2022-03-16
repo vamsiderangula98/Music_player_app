@@ -1,0 +1,90 @@
+/* Styling for the bottom Section */
+.bottom-section {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 12vh;
+    width: 100vw;
+    background-color: #282828;
+  }
+  .footer {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .f-song {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 18%;
+    align-items: center;
+    font-size: 1.2vw;
+    justify-content: space-between;
+  }
+  .f-song-div {
+    display: flex;
+    align-items: center;
+  }
+  .f-song-div img {
+    height: inherit;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  .f-song-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-around;
+    color: whitesmoke;
+  }
+  .f-playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: inherit;
+  }
+  .f-p-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+    width: 90%;
+    font-size: 1.6vw;
+    margin-bottom: -20px;
+    color: whitesmoke;
+  }
+  .heart1 {
+    color: whitesmoke;
+    font-size: 1.5vw;
+  }
+  .f-sound-slider {
+    display: flex;
+    align-items: center;
+  }
+  #range {
+    background: linear-gradient(to right, #9bcdce 0%, #68d082 50% 80%);
+    border: solid 0.1vh #004f74;
+    border-radius: 8px;
+    height: 0.8vh;
+    width: 80%;
+    outline: none;
+    transition: all 450ms ease-in;
+    -webkit-appearance: none;
+  }
+  .f-sound-slider p {
+    font-size: 1.3vw;
+    color: whitesmoke;
+  }
+  .f-sound-option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: inherit;
+    font-size: 1.5vw;
+    color: whitesmoke;
+  }

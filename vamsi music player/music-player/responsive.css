@@ -1,0 +1,270 @@
+/* for the width of 1000px and less*/
+@media screen and (max-width: 1000px) {
+  .bottom-section .footer .f-song {
+    display: none;
+  }
+  .bottom-section .footer .f-sound-option {
+    display: none;
+  }
+  .bottom-section .footer .f-playlist {
+    width: 70%;
+  }
+  .f-p-buttons {
+    font-size: 2vw;
+  }
+  .f-sound-slider p {
+    font-size: 2vw;
+  }
+}
+/* for the width of 1100px and less */
+@media screen and (max-width: 1100px) {
+  .right-section {
+    display: none;
+  }
+  .left-section {
+    width: 100vw;
+  }
+  .design {
+    height: 28vh;
+    width: 25vw;
+  }
+  .design:hover {
+    height: 32vh;
+    width: 35vw;
+  }
+  .d-h-design {
+    height: 28vh;
+    width: 25vw;
+  }
+  .d-h-design:hover {
+    height: 25vh;
+    width: 22vw;
+  }
+  .p-a-artist img {
+    height: 17vh;
+    width: 11vw;
+  }
+  .mood1 img {
+    height: 16vh;
+    width: 10vw;
+  }
+  .s-outer1-orange img {
+    height: 7vh;
+    width: 4vw;
+  }
+  .l-r-song-image img {
+    width: 14vw;
+  }
+  .song-playlist {
+    width: 90vw;
+    height: 37vh;
+  }
+  .playlist-container {
+    width: 81vw;
+  }
+  .artist-playlist-heart i {
+    font-size: 2vw;
+  }
+}
+/* for the width of 800px and less */
+@media screen and (max-width: 800px) {
+  .l-r-song-image img {
+    width: 16vw;
+  }
+  .l-h-c-d-image img {
+    height: 12vh;
+  }
+  .p-a-artist img {
+    height: 14vh;
+  }
+  .s-outer1-orange img {
+    height: 5vh;
+    width: 4vw;
+  }
+  .mood1 img {
+    height: 13vh;
+  }
+  .design {
+    height: 24vh;
+  }
+  .d-h-design {
+    height: 24vh;
+  }
+  .d-h-design:hover {
+    height: 22vh;
+    width: 20vw;
+  }
+  .p-a-head h2 {
+    margin-bottom: 10px;
+  }
+  .mood1 p {
+    top: -9vh;
+    left: 3.5vw;
+  }
+  .s-d-h-name h3 {
+    font-size: 2.5vw;
+  }
+  .s-d-a-head {
+    font-size: 1.8vw;
+  }
+  .s-d-a-brief p {
+    font-size: 1.8vw;
+  }
+  .play-button input {
+    font-size: 1.7vw;
+    height: 5vh;
+    width: 8vw;
+  }
+  .s-d-a-total p {
+    font-size: 1.8vw;
+  }
+  .song-name-palylist {
+    font-size: 2vw;
+  }
+  .singer-name-playlist {
+    font-size: 1.8vw;
+  }
+  .p-c-o-a-serial-no {
+    font-size: 2vw;
+  }
+  .play-song-details{
+    width:15vw;
+  }
+}
+/* for the width of 600px and less */
+@media screen and (max-width: 600px) {
+  .design h2 {
+    font-size: 3vw;
+  }
+  .design {
+    height: 18vh;
+  }
+  .l-r-song-image img {
+    width: 20vw;
+    height: 10vh;
+  }
+  .p-a-artist img {
+    height: 12vw;
+  }
+  .s-outer1-orange img {
+    height: 5vw;
+  }
+  .mood1 {
+    height: 12vw;
+    text-align: center;
+    width: 12vw;
+  }
+  .mood1 img {
+    height: 12vw;
+  }
+  .d-h-design {
+    height: 18vh;
+  }
+  .d-h-design h2 {
+    font-size: 3vw;
+  }
+  .l-h-c-d-image img {
+    height: 8vh;
+  }
+  .f-p-buttons {
+    font-size: 3vw;
+  }
+  .f-sound-slider p {
+    font-size: 4vw;
+  }
+  .p-a-head h2 {
+    margin-bottom: 20px;
+  }
+  .s-container-moods {
+    height: 15vh;
+  }
+  .mood1 p {
+    top: -7vh;
+    left: -0.5vw;
+  }
+  .s-d-a-brief p {
+    font-size: 2.1vw;
+  }
+  .song-playlist {
+    width: 92vw;
+  }
+  
+}
+/* for the width of 400px and less */
+@media screen and (max-width: 400px) {
+  .design {
+    height: 15vh;
+  }
+  .d-h-design {
+    height: 15vh;
+  }
+  .mood1 p {
+    top: -5vh;
+    left: -0.5vw;
+  }
+  .song-playlist {
+    height: 30vh;
+    width: 98vw;
+  }
+  .s-d-head {
+    margin-bottom: 5px;
+  }
+  .s-d-h-name h3 {
+    font-size: 3.9vw;
+  }
+  .s-d-h-follower h4 {
+    font-size: 2.7vw;
+  }
+  .s-d-a-head h3 {
+    font-size: 3.5vw;
+  }
+  .s-d-a-brief p {
+    font-size: 2.5vw;
+  }
+  .play-button input {
+    font-size: 2.7vw;
+    height: 3vh;
+    width: 13vw;
+  }
+  .s-d-a-wish {
+    width: 65%;
+  }
+  .follow-wish h3 {
+    font-size: 3.3vw;
+  }
+  .s-d-a-total p {
+    font-size: 3.2vw;
+  }
+  .playlist-container {
+    top: 50vh;
+    height: 34vh;
+  }
+  .p-c-o-artist {
+    width: 65%;
+  }
+  .p-c-o-a-image img {
+    width: 15vw;
+    margin: 0px 5px;
+  }
+  .p-c-o-a-serial-no {
+    font-size: 4.5vw;
+  }
+  .song-name-palylist {
+    font-size: 4vw;
+  }
+  .singer-name-playlist {
+    font-size: 3.8vw;
+  }
+  .artist-playlist-heart {
+    width: 11vw;
+  }
+  .artist-playlist-heart i {
+    font-size: 5vw;
+  }
+  .fav h1 {
+    font: size 7vw;
+  }
+  .play-song-details{
+    width:16vw;
+  }
+}
